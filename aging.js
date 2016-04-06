@@ -1,6 +1,6 @@
 var string = 'Xola is 23, Peter is 18, Oya is 29, Ellie is 20, Sive is 27';
 
-// exports.wisdomCalculator = function(string) {
+exports.wisdomCalculator = function(string) {
 
 var breakDown = string.split(", ");
 
@@ -40,6 +40,6 @@ for (var i=0; i<emptyArray.length; i++) {
     eldestName=emptyArray[i].name
   }
 }
-// return eldestName;
-// }
 console.log (eldestName);
+return eldestName;
+}
